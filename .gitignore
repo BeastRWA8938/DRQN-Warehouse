@@ -20,6 +20,10 @@
 /[Uu]ser[Ss]ettings/
 *.log
 
+# python virtual environment
+venv/
+.venv
+
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be committed to version control.
 *.blend1
 *.blend1.meta
@@ -105,3 +109,8 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Ignore Build Junks
+Builds/**/BackUpThisFolder_ButDontShipItWithYourGame/
+Builds/**/BurstDebugInformation_DoNotShip/
+Builds/**/*.pdb
